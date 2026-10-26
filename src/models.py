@@ -115,7 +115,6 @@ class GLEntry:
         if not isinstance(self.credit, Decimal):
             self.credit = Decimal(str(self.credit))
 
-
 @dataclass
 class RepostItemValuationDoc:
     """
